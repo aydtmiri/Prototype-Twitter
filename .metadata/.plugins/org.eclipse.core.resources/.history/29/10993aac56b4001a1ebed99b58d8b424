@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="http://stevenbenner.github.io/jquery-powertip/scripts/jquery.powertip.js"></script>
+  <script src=" http://stevenbenner.github.io/jquery-powertip/styles/jquery.powertip.css"></script>
+  <script src="scripts/forms.js"></script>
+</head>
+
+<body>
+
+  <header th:include="fragments :: kopfbereich('BENUTZERLISTE')">
+    Musterheader
+  </header>
+  <hr>
+
+  <div class="navigation">
+   <nav th:include="fragments :: navigation">
+      Musternavigation
+    </nav>
+  </div>
+
+  <div class="article">
+    <article th:if="${users == null}">
+      <section>Keine Benutzer vorhanden</section>
+    </article>
+  
+  <article th:if="${users != null">
+        <section th:each="user : ${users}">
+          <p th:text="${user.fullname}">Mustertext</span><p/>
+        </section>
+    </article>
+
+
+
+</body>
+
+</html>

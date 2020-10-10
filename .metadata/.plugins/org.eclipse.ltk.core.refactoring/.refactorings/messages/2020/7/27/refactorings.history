@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;forms.js&apos; to &apos;scripts&apos;&#x0D;&#x0A;- Original project: &apos;messages&apos;&#x0D;&#x0A;- Destination element: &apos;scripts&apos;&#x0D;&#x0A;- Original element: &apos;forms.js&apos;" description="Copy file" element1="src/main/resources/static/scripts/forms.js" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1593941218960" target="/messages/src/main/resources/static/scripts" units="0" version="1.0"/>
+</session>

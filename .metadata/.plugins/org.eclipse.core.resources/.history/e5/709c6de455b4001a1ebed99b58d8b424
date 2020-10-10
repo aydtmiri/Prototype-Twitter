@@ -1,0 +1,30 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="scripts/forms.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <header th:fragment="kopfbereich(titel)">
+      <h1 th:text="${titel}">Überschrift</h1>
+    </header>
+    <p id="login_status">nicht angemeldet</p>
+  </header>
+  <hr>
+
+  <div class="navigation">
+    <nav th:fragment="navigation">
+      <a href="register.htm">Registrierung</a>
+      <a href="messages.html">Nachrichten</a>
+      <a href="newMessage.htm">Neue Nachrichten</a>
+      <a href="showUser.html">Benutzerliste</a>
+      <a>Anmelden</a>
+    </nav>
+
+</body>
+
+</html>

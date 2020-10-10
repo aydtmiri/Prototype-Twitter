@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;de.hfu.MeinController&apos; to &apos;MyController&apos;&#x0D;&#x0A;- Original project: &apos;messages&apos;&#x0D;&#x0A;- Original element: &apos;de.hfu.MeinController&apos;&#x0D;&#x0A;- Renamed element: &apos;de.hfu.MyController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MeinController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;de.hfu{MeinController.java[MeinController" matchStrategy="1" name="MyController" qualified="false" references="true" similarDeclarations="false" stamp="1602343109789" textual="false" version="1.0"/>
+</session>

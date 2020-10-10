@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="http://stevenbenner.github.io/jquery-powertip/scripts/jquery.powertip.js"></script>
+  <script src=" http://stevenbenner.github.io/jquery-powertip/styles/jquery.powertip.css"></script>
+  <script src="scripts/forms.js"></script>
+</head>
+
+<body>
+
+  <header th:include="fragments :: kopfbereich('NEW MESSAGE')">
+    Musterheader
+  </header>
+  <hr>
+
+  <div class="navigation">
+    <nav th:include="fragments :: navigation">
+      Musternavigation
+    </nav>
+  </div>
+
+
+  <div class="article">
+    <articel>
+      <form action="/createMessage.html" method="post">
+        <p>Neue Nachricht schreiben:</p>
+        <textarea name="messageText" maxlength="140" required="true">Ihre Nachricht...</textarea>
+        <input value="Abschicken" type="submit" />
+      </form>
+      </article>
+  </div>
+
+</html>

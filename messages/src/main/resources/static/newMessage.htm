@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>NACHRICHTEN</h1>
+    <p id="login_status">nicht angemeldet</p>
+  </header>
+  <hr>
+  <div class="navigation">
+  <nav>
+    <a href="register.htm" >Registrierung</a>
+    <a href ="liste.htm">Nachrichten</a>
+    <a href ="newMessage.htm">Neue Nachrichten</a>
+    <a >Anmelden</a>
+
+  </nav>
+</div>
+
+<div class="article">
+  <articel>
+    <form>
+      <fieldset>
+        <legend>
+          Neue Nachricht
+        </legend>
+        <p>Bitte geben Sie eine Nachricht ein</p>
+        <label for="date">Datum:</label><br>
+        <input
+                type ="date"
+                name="date"
+                required ="required"
+                title ="Bitte geben Sie das ein Datum ein"
+        />
+        <br><br>
+        <label for="ort">Ort:</label><br>
+        <input type ="text"
+                name="ort"
+                title ="Ihr Ort wird automatisch ermittelt"
+                readonly
+                id="cityElement"
+        />      <br><br>
+        <label for="nachricht">Nachricht:</label><br>
+        <input  type ="text"
+                name="nachricht"
+                required ="required"
+                size="100"
+                title ="Bitte geben Sie eine Nachricht ein"
+                id="message"
+        />
+        <p id="messageCounter"></p>
+        <br><br>
+
+
+        <input onclick="locateMe()" type="submit" value="Senden">
+
+    </form>
+  </article>
+</div>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://stevenbenner.github.io/jquery-powertip/scripts/jquery.powertip.js"></script>
+<script src="http://stevenbenner.github.io/jquery-powertip/styles/jquery.powertip.css"></script>
+<script src="scripts/geoLocation.js"></script>
+<script src="scripts/messageCounter.js"></script>
+<script src="scripts/forms.js"></script>
+</body>
+
+</html>

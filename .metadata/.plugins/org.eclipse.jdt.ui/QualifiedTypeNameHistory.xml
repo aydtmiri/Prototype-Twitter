@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.WebApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.support.WebApplicationContextUtils"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="org.springframework.boot.web.servlet.ServletComponentScan"/>
+<fullyQualifiedTypeName name="de.hfu.messages.domain.service.MessageService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="de.hfu.messages.domain.model.User"/>
+<fullyQualifiedTypeName name="de.hfu.messages.domain.service.SecurityService"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="de.hfu.messages.domain.model.Message"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.security.Principal"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

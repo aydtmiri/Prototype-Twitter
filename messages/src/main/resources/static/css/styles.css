@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@700&family=Arimo&display=swap');
+body {
+  background-color: white;
+  margin: auto;
+  width: 75%;
+}
+
+.navigation{
+  position  : absolute;
+  width     : 100px;
+
+}
+
+.article{
+  margin-left : 120px;
+}
+
+div{
+  margin : 10px;
+}
+
+/*standard bold, big text */
+ nav, h1,legend{
+  color: #424CB3;
+  font-family: 'Alef', sans-serif;
+}
+
+/* standard text*/
+#login_status,#comment_box, p, label{
+    font-family: 'Arimo', sans-serif;
+}
+
+nav,legend{
+  font-size:1.2em;
+
+}
+
+/*yellow background */
+form,#comment_box {
+  background-color: #FFE891;
+  border-radius: 10px;
+}
+
+fieldset{
+  border: 0px;
+}
+
+nav{
+  text-align: center;
+  position: absolute;
+  float: left;
+}
+
+nav a{
+text-decoration: none;
+}
+
+nav a:hover{
+  opacity: 60%
+}
+
+
+#login_status{
+  text-align: right;
+  color: #919BFF;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+
+#comment_box  i, #comment_box time {
+  color: #919BFF;
+  font-size: 0.8em;
+
+}
+
+#comment_box time{
+  display: inline-block;
+  float: right;
+}
+
+#comment_box,form {
+  margin: auto;
+  width: 75%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+section{
+  border-bottom: 1px solid white;
+}
+
+section:hover{
+  background-color: #ffde66;
+}

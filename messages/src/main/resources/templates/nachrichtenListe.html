@@ -1,0 +1,49 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="utf-8">
+
+      <script type="text/javascript" th:inline="text">
+                    var lastClientMessage = [[${lastClientMessage}]];
+                </script>
+                <script>loadMessages()</script>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="/scripts/ajax.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+  <header th:include="fragments :: kopfbereich('MESSAGES')">
+    Musterheader
+  </header>
+  <hr>
+
+  <div class="navigation">
+    <nav th:include="fragments :: navigation">
+      Musternavigation
+    </nav>
+  </div>
+
+  <div class="article">
+    <article id="comment_box" th:if="${messages == null}">
+      <section>There are no messages</section>
+    </article>
+
+    <article id="comment_box"th:if="${messages != null}">
+
+        <section th:each="message : ${messages}">
+          <b th:text="${message.user.fullname}">Max Mustermann</b><i class="location" th:text="${message.date}">01. Januar 1856</i>
+          <p th:text="${message.text}">Mustertext</span><p/>
+        </section>
+    </article>
+  </div>
+</body>
+
+</html>
